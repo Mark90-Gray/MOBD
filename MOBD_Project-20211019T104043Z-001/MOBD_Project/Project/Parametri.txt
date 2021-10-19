@@ -1,0 +1,9 @@
+KNN= k
+SVM_rbf = gamma: 0.01, C: 100, strategia: 'ovr' 
+SVM_poly= degree: 2, C: 1000 strategia: 'ovr' 
+SVM_lin= C: 1 strategia: 'ovr' 
+RandomFC= n_estimators: 800, max_depth: 50
+AdaBoost= max_depth: 15, max_features: 15, min_samples_leaf: 9, n_estimators: 1000, learning_rate: 1
+AdaBoost2= max_depth: 15, max_features: 15, min_samples_leaf: 9, n_estimators: 900, learning_rate: 1.5
+Bagging= max_depth: 50, n_estimators: 800
+LinearSVC= multiclass: 'ovr', C: 0.1
